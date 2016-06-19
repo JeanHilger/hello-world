@@ -1,0 +1,136 @@
+@font-face {
+  font-family: "Raleway";
+  src: url("font/Raleway.ttf");
+}
+
+/*ENTER BUTTON  --*/
+.box-data-conteiner {
+  padding: 0% 7%;
+}
+
+.box-data {
+  background-color: #282c34;
+
+  padding: 1em;
+
+  border-radius: 0.31em;
+  /*border: solid 0.15em #282c34;*/
+
+  box-shadow: inset 0 .2em 0 #528bff;
+
+  -webkit-user-select: none;
+    -moz-user-select: none;
+      -ms-user-select: none;
+    	 user-select: none;
+
+  transition: all 0.1s ease-out;
+}
+
+
+.data-button {
+  margin: auto;
+  padding: 0.3em;
+
+  outline: none;
+
+  font-family: Verdana;
+  font-size: 1em;
+  font-weight: bold;
+  color: #757575;
+  text-align: justify;
+
+  border-radius: 0.2em;
+  border: none;
+  background-color: #efeffe;
+
+  -webkit-user-select: none;
+    -moz-user-select: none;
+      -ms-user-select: none;
+    	 user-select: none;
+
+  transition: all 0.1s ease-out;
+}
+
+.data-button:hover {
+  transition: all 0.1s ease-out;
+}
+
+.data-button:active {
+  transition: all 0.1s ease-out;
+}
+
+.data-button:focus {
+  transition: all 0.9s ease-out;
+}
+
+.enter-button {
+	color: #ededed;
+	font-family: "Raleway";
+  font-size: 1.1em;
+  text-align: center;
+
+  margin-top: 1em;
+
+  background-color: #47a147;
+
+  display: block;
+
+  border-radius: .51em;
+  border: solid 0.1em #004500;
+
+  padding: 0.65em 1.3em;
+
+  box-shadow: inset 0 .04em 0.03em #ffffff;
+
+  cursor: pointer;
+  -webkit-user-select: none;
+    -moz-user-select: none;
+      -ms-user-select: none;
+    	 user-select: none;
+}
+
+.enter-button:hover {
+  background-color: #379037;
+  transition: all 0.1s ease-out;
+}
+
+.enter-button:active {
+  background-color: #429142;
+  transition: all 0.1s ease-out;
+}
+/*-- ENTER BUTTON*/
+
+ /*CONTENT --*/
+ .content-conteiner{
+  padding: 1% 7%;
+}
+
+ .content {
+  font-family: "Raleway";
+  text-align: justify;
+}
+ /*-- CONTENT*/
+
+body {
+  background-color: #fffaf2;
+}
+
+table {
+  width: 100%;
+}
+
+td {
+  width: 40%;
+}
+
+h1 {
+  font-family: "Raleway";
+  text-align: center;
+
+  padding: 0;
+}
+
+table, th, td, tr {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
